@@ -1,0 +1,29 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Títulos sin fondo y en negro */
+.card-header {
+  background-color: transparent !important;
+  color: #000 !important;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border: none;
+}
+
+/* Textos generales más grandes */
+h5, p, label, input, select, textarea {
+  font-size: 1.1rem;
+}
+
+/* Botón con ancho natural y alineado a la izquierda */
+button[type="submit"] {
+  font-size: 1.1rem;
+  padding: 10px 20px;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+  color: #666;
+}
